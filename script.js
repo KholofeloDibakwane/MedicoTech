@@ -1,8 +1,3 @@
-/*
-  MedicoTech Website Script
-  Handles interactive elements like the mobile menu, scroll animations, and FAQ accordion.
-*/
-
 document.addEventListener('DOMContentLoaded', function() {
 
     // --- Mobile Menu Toggle ---
