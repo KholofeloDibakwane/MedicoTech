@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Resources | MedicoTech™ Intranet</title>
+    <link rel="icon" type="image/x-icon" href="Assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                MEDICO<span class="logo-accent">TECH</span>™ INTRANET
+            </a>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="tools.html">Our Tools</a></li>
+                <li><a href="ethics.html">Ethics & Compliance</a></li>
+                <li><a href="news.html">Company News</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="section-container">
+            <h1>Employee Resources</h1>
+            <p>Access all internal documents, directories, and training materials</p>
+        </div>
+    </section>
+
+    <section id="directory" class="resource-section hidden">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Employee Directory</h2>
+                <p>Find contact information for all MedicoTech™ team members</p>
+            </div>
+            <div class="directory-search">
+                <input type="text" placeholder="Search by name, department, or role">
+                <button class="primary-btn">Search</button>
+            </div>
+            <div class="directory-grid">
+                <!-- Employee cards would be dynamically generated in a real implementation -->
+                <div class="employee-card">
+                    <div class="employee-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="employee-info">
+                        <h3>Thato Masia</h3>
+                        <p>Director & Clinical Psychologist</p>
+                        <p><i class="fas fa-phone"></i> +27 12 345 6789</p>
+                        <p><i class="fas fa-envelope"></i> thato@medicotech.co.za</p>
+                    </div>
+                </div>
+                <!-- More employee cards would go here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="profiles" class="resource-section alt-bg hidden">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Employee Profiles</h2>
+                <p>Detailed professional profiles and expertise</p>
+            </div>
+            <div class="profiles-content">
+                <p>Access comprehensive professional profiles including qualifications, areas of expertise, and current projects. This section is currently under development and will be available soon.</p>
+                <a href="#" class="primary-btn">Coming Soon</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="resource-section hidden">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Employee FAQ</h2>
+                <p>Answers to common questions about company policies and procedures</p>
+            </div>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How do I request time off?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>All time off requests should be submitted through the HR portal at least 2 weeks in advance for approval. Emergency leave requires documentation.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What is the process for expense reimbursement?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Submit scanned receipts through the Finance portal within 7 days of purchase. Reimbursements are processed on the 15th and 30th of each month.</p>
+                    </div>
+                </div>
+                <!-- More FAQ items would go here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="training" class="resource-section alt-bg hidden">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Training Materials</h2>
+                <p>Access training resources and professional development materials</p>
+            </div>
+            <div class="training-grid">
+                <div class="training-card">
+                    <i class="fas fa-file-pdf"></i>
+                    <h3>New Employee Orientation</h3>
+                    <p>Complete guide for new hires</p>
+                    <a href="#" class="primary-btn">Download</a>
+                </div>
+                <div class="training-card">
+                    <i class="fas fa-video"></i>
+                    <h3>Software Training</h3>
+                    <p>Video tutorials for all internal systems</p>
+                    <a href="#" class="primary-btn">Watch</a>
+                </div>
+                <!-- More training cards would go here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="calendar" class="resource-section hidden">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Company Calendar</h2>
+                <p>Upcoming events, holidays, and important dates</p>
+            </div>
+            <div class="calendar-container">
+                <iframe src="https://calendar.google.com/calendar/embed?src=example%40medicotech.co.za&ctz=Africa%2FJohannesburg" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <img src="Assets/logo.jpg" alt="MedicoTech Logo">
+                </a>
+                <p>Internal employee intranet - Confidential and Proprietary</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+             <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="tools.html">Our Tools</a></li>
+                <li><a href="ethics.html">Ethics & Compliance</a></li>
+                <li><a href="news.html">Company News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Need Help?</h3>
+                <p>Contact HR for any questions about resources</p>
+                <a href="mailto:hr@medicotech.co.za" class="primary-btn">Email HR</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 MedicoTech™ Employee Intranet. Restricted Access.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
