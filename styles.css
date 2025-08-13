@@ -1,3 +1,4 @@
+
 :root {
   /* Color Palette */
   --bg-dark: #121212;
@@ -665,4 +666,314 @@ a:hover {
     .contact-grid { grid-template-columns: 1fr; }
     .steps-timeline { padding-left: 20px; }
     .step-icon { left: -20px; }
+}
+/* ------------------- */
+/* INTRANET SPECIFIC STYLES */
+/* ------------------- */
+
+.disclaimer-banner {
+    background-color: #1a1a2e;
+    padding: 2rem 0;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+.disclaimer-content {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+.disclaimer-content i {
+    font-size: 2rem;
+    color: var(--accent-pink);
+    margin-top: 5px;
+}
+.disclaimer-content h3 {
+    margin-bottom: 1rem;
+    color: var(--accent-pink);
+}
+.disclaimer-content p {
+    margin-bottom: 1rem;
+}
+
+.quick-links-section {
+    padding: 80px 0;
+}
+.quick-links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+.quick-link-card {
+    background-color: var(--bg-dark-card);
+    padding: 2rem 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: var(--transition);
+    border: 1px solid var(--border-color);
+}
+.quick-link-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-pink);
+}
+.quick-link-card i {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-light);
+}
+.quick-link-card:hover i {
+    color: var(--accent-pink);
+}
+
+/* Resources Page Styles */
+.directory-search {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.directory-search input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: var(--bg-dark-card);
+    color: var(--text-light);
+}
+.directory-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+.employee-card {
+    background-color: var(--bg-dark-card);
+    padding: 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    border: 1px solid var(--border-color);
+}
+.employee-avatar {
+    width: 60px;
+    height: 60px;
+    background-color: var(--bg-dark);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.employee-info p {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+.employee-info i {
+    margin-right: 0.5rem;
+    color: var(--text-light);
+}
+
+.training-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+.training-card {
+    background-color: var(--bg-dark);
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid var(--border-color);
+}
+.training-card i {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-light);
+}
+.training-card p {
+    margin-bottom: 1.5rem;
+}
+
+/* News Page Styles */
+.news-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+.news-card {
+    background-color: var(--bg-dark-card);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    display: flex;
+}
+.news-card.featured {
+    grid-column: 1 / -1;
+}
+.news-image {
+    flex: 1;
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.news-content {
+    flex: 1;
+    padding: 2rem;
+}
+.news-date {
+    display: block;
+    color: var(--text-medium);
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.comms-tabs {
+    display: flex;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 2rem;
+}
+.tab-btn {
+    padding: 0.75rem 1.5rem;
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    color: var(--text-medium);
+    font-weight: 600;
+    cursor: pointer;
+}
+.tab-btn.active {
+    color: var(--accent-pink);
+    border-bottom-color: var(--accent-pink);
+}
+
+.update-card {
+    background-color: var(--bg-dark);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border: 1px solid var(--border-color);
+}
+.update-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.update-author {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+.update-author i {
+    font-size: 1.2rem;
+}
+.update-time {
+    color: var(--text-medium);
+    font-size: 0.9rem;
+}
+
+/* Tools Access Control */
+.access-notice {
+    background-color: #1a1a2e;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+.notice-content {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.notice-content i {
+    font-size: 2rem;
+    color: var(--accent-pink);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1002;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+.modal-content {
+    background-color: var(--bg-dark-card);
+    margin: 10% auto;
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    max-width: 500px;
+    position: relative;
+}
+.close-modal {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.access-form {
+    margin-top: 1.5rem;
+}
+/* Intranet Access Section */
+.intranet-access-section {
+    padding: 80px 0;
+    background-color: var(--bg-dark-card);
+}
+.intranet-access-content {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.intranet-access-text {
+    flex: 1;
+}
+.intranet-access-visual {
+    flex: 1;
+}
+.intranet-access-visual img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+.intranet-features {
+    display: flex;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+.intranet-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+.intranet-feature i {
+    font-size: 1.5rem;
+    color: var(--accent-pink);
+}
+
+/* Disclaimer Banner */
+.disclaimer-banner {
+    background-color: #1a1a2e;
+    padding: 2rem 0;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+.disclaimer-content {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+.disclaimer-content i {
+    font-size: 2rem;
+    color: var(--accent-pink);
+    margin-top: 5px;
+}
+.disclaimer-content h3 {
+    margin-bottom: 1rem;
+    color: var(--accent-pink);
+}
+.disclaimer-content p {
+    margin-bottom: 1rem;
 }
