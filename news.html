@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company News | MedicoTech™ Intranet</title>
+    <link rel="icon" type="image/x-icon" href="Assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   <nav class="glass-nav">
+    <div class="nav-container">
+        <a href="index.html" class="logo">
+            MEDICO<span class="logo-accent">TECH</span>™
+        </a>
+        <div class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+                 <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="tools.html">Our Tools</a></li>
+                <li><a href="ethics.html">Ethics & Compliance</a></li>
+                <li><a href="news.html">Company News</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+    </div>
+</nav>
+    <section class="page-hero">
+        <div class="section-container">
+            <h1>Company News</h1>
+            <p>Stay updated with the latest announcements and internal communications</p>
+        </div>
+    </section>
+
+    <section class="news-section hidden">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Latest Updates</h2>
+                <p>Important announcements and company news</p>
+            </div>
+            <div class="news-grid">
+                <div class="news-card featured">
+                    <div class="news-image" style="background-image: url('Assets/Images/news1.jpg');"></div>
+                    <div class="news-content">
+                        <span class="news-date">June 15, 2025</span>
+                        <h3>Quarterly All-Hands Meeting Announcement</h3>
+                        <p>Join us on June 30th for our quarterly all-hands meeting where we'll discuss company performance, upcoming projects, and answer your questions.</p>
+                        <a href="#" class="primary-btn">Read More</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-image" style="background-image: url('Assets/Images/news2.jpg');"></div>
+                    <div class="news-content">
+                        <span class="news-date">June 10, 2025</span>
+                        <h3>New Office Location Opening</h3>
+                        <p>Our new Cape Town office will open next month with state-of-the-art facilities for our growing team.</p>
+                        <a href="#" class="primary-btn">Read More</a>
+                    </div>
+                </div>
+                <!-- More news cards would go here -->
+            </div>
+        </div>
+    </section>
+
+    <section class="comms-section alt-bg hidden">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Internal Communication</h2>
+                <p>Discussion forums and team updates</p>
+            </div>
+            <div class="comms-tabs">
+                <button class="tab-btn active">Team Updates</button>
+                <button class="tab-btn">Discussion Forums</button>
+                <button class="tab-btn">Policy Changes</button>
+            </div>
+            <div class="comms-content">
+                <div class="tab-content active">
+                    <div class="update-card">
+                        <div class="update-header">
+                            <div class="update-author">
+                                <i class="fas fa-user"></i>
+                                <span>Thato Masia</span>
+                            </div>
+                            <span class="update-time">2 hours ago</span>
+                        </div>
+                        <div class="update-text">
+                            <p>Reminder: All clinical staff must complete the new HIPAA compliance training by the end of this week. The training is available in the Resources section.</p>
+                        </div>
+                    </div>
+                    <!-- More update cards would go here -->
+                </div>
+                <div class="tab-content">
+                    <!-- Discussion forum content would go here -->
+                </div>
+                <div class="tab-content">
+                    <!-- Policy changes content would go here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <img src="Assets/logo.jpg" alt="MedicoTech Logo">
+                </a>
+                <p>Internal employee intranet - Confidential and Proprietary</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+               <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="tools.html">Our Tools</a></li>
+                <li><a href="ethics.html">Ethics & Compliance</a></li>
+                <li><a href="news.html">Company News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Have News to Share?</h3>
+                <p>Submit news items for company-wide distribution</p>
+                <a href="mailto:comms@medicotech.co.za" class="primary-btn">Submit News</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 MedicoTech™ Employee Intranet. Restricted Access.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
